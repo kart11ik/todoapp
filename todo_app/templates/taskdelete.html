@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task-Delete</title>
+</head>
+<body>
+<a href="{% url 'task' %}">Go Back</a>
+<form method="post" action="">
+    {%csrf_token %}
+    <p> Are you sure you want to delete</p>
+    <input type="submit" value="Delete"/>
+</form>
+
+</body>
+</html>

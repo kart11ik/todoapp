@@ -1,0 +1,45 @@
+body{
+margin:0;
+font-family: Arial, sans-serif;
+background :linear-gradient(90deg,white,steelblue);
+}
+
+.nav{
+width :100%;
+height :auto;
+background:white;
+}
+
+.left{
+margin-left :1200px;
+}
+
+.tab{
+font-size :20px;
+font-family: Arial, sans-serif;
+width :690px;
+height:auto;
+background:white;
+border-radius:9px;
+}
+
+.tab a:link{
+text-decoration :none;
+color :black;
+}
+
+.tab a:hover{
+color : blue;
+}
+
+.tab a:visited{
+color : black;
+}
+
+.option{
+width :50px;
+}
+
+li{
+display :inline;
+}
